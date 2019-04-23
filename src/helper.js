@@ -104,7 +104,7 @@ const draw = (education_data, county_data, props) => {
     .style("fill", "none")
     .style("opacity", 0.5);
 
-  var legendValues = [
+  let legendValues = [
     ["< 11%", "#f2f0f7"],
     ["11% to 22%", "#dadaeb"],
     ["22% to 33%", "#bcbddc"],
